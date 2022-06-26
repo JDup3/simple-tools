@@ -1,0 +1,8 @@
+[package]
+name = "template-rust"
+version = "0.1.0"
+authors = []
+default-run = "template-rust"
+
+[dependencies]
+reqwest = {default_features=false, features=["rustls-tls", "json"] }
